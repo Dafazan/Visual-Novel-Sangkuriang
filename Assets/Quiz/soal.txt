@@ -1,0 +1,60 @@
+Untuk apa Dayang Sumbi meminta izin kepada ayahnya?
++Jalan-jalan ke hutan
++Tinggal di hutan
++Berburu di hutan
++Menenun di hutan
++B
+#Siapa nama anjing yang tinggal bersama Dayang Sumbi?
++Sangkuriang
++Tumin
++Tumang
++Tunam
++C
+#Siapa nama anak laki-laki yang dilahirkan Dayang Sumbi?
++Malin Kundang
++Tumang
++Sangkuriang
++Budi
++C
+#berasal dari mana cerita rakyat Sangkuriang?
++Jawa Barat
++Jawa Timur
++Jawa Tengah
++Banten
++A
+#Hewan apa yang ditolak tumang untuk dibunuh?
++Sapi
++Ayam
++Rusa
++Kambing
++C
+#Siapa nama anak raja dalam cerita ini?
++Wati
++Dayang Sumbi
++Sangkuriang
++Tumang
++B
+#Apa nama gunung dalam cerita ini?
++Everest
++Rinjani
++Burangrang
++Tangkuban Perahu
++D
+#Hewan apakah Tumang?
++Ayam
++Rusa
++Anjing
++Kuda
++C
+#Di mana Dayang submit tinggal setelah meninggalkan kerajaan?
++Hutan
++Laut
++Padang pasir
++Sawah
++A
+#Siapa yang mengambil alat tenun Dayang Sumbi?
++Raja
++Budi
++Tumang
++Sangkuriang
++C
