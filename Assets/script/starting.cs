@@ -32,12 +32,13 @@ public class starting : MonoBehaviour
 
     void Start()
     {
-        // Load the initial volume setting
-        
+       
+
     }
 
     void Update()
     {
+        textSpeed = PlayerPrefs.GetFloat("textspeed", 0.03f);
         LoadVolumeSettings();
     }
 

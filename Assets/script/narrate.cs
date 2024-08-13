@@ -32,7 +32,7 @@ public class narrate : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
+        textSpeed = PlayerPrefs.GetFloat("textspeed", 0.03f);
     }
 
     public void startnarrate()

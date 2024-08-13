@@ -15,7 +15,8 @@ public class quiz : MonoBehaviour
    
     void Start()
     {
-        
+        PlayerPrefs.SetInt("finish", 1);
+        PlayerPrefs.Save();
     }
 
    

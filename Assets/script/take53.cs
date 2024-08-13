@@ -38,6 +38,11 @@ public class take53 : MonoBehaviour
         textcomponent.text = string.Empty;
         StartDialogue1();
     }
+
+    void Update()
+    {
+        textSpeed = PlayerPrefs.GetFloat("textspeed", 0.03f);
+    }
     void OnVideoEnded(VideoPlayer vp)
     {
         T1.SetActive(false);

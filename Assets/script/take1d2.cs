@@ -22,11 +22,16 @@ public class take1d2 : MonoBehaviour
     public AudioClip[] audioClips;
     public AudioSource audioSource;
 
-
+    
 
     void Start()
     {
         videoPlayerT2.loopPointReached += OnVideoEnded;
+    }
+
+    void Update()
+    {
+        textSpeed = PlayerPrefs.GetFloat("textspeed", 0.03f);
     }
 
     void OnVideoEnded(VideoPlayer vp)

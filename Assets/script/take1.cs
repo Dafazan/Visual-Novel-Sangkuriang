@@ -40,6 +40,11 @@ public class take1 : MonoBehaviour
         videoPlayerT3.Pause();
     }
 
+    void Update()
+    {
+        textSpeed = PlayerPrefs.GetFloat("textspeed", 0.03f);
+    }
+
 
     public void StartVideo()
     {

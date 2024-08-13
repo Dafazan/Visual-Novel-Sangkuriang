@@ -38,6 +38,11 @@ public class take5 : MonoBehaviour
 
     }
 
+    void Update()
+    {
+        textSpeed = PlayerPrefs.GetFloat("textspeed", 0.03f);
+    }
+
   
     //void OnVideoEnded(VideoPlayer vp)
     //{

@@ -38,6 +38,11 @@ public class take52 : MonoBehaviour
         StartDialogue1();
     }
 
+    void Update()
+    {
+        textSpeed = PlayerPrefs.GetFloat("textspeed", 0.03f);
+    }
+
 
     public void StartVideo()
     {

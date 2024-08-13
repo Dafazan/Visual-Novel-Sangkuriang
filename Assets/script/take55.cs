@@ -55,6 +55,11 @@ public class take55 : MonoBehaviour
         StartDialogue1();
     }
 
+    void Update()
+    {
+        textSpeed = PlayerPrefs.GetFloat("textspeed", 0.03f);
+    }
+
 
     private void ClearRenderTexture()
     {

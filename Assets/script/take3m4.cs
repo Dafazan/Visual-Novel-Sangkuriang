@@ -41,6 +41,11 @@ public class take3m4 : MonoBehaviour
 
     }
 
+    void Update()
+    {
+        textSpeed = PlayerPrefs.GetFloat("textspeed", 0.03f);
+    }
+
     //public void firstpoint()
     //{
     //    T2Dialogue.SetActive(true);

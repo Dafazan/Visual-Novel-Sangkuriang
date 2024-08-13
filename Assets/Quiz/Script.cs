@@ -29,9 +29,11 @@ public class Script : MonoBehaviour
     float nilai;
 
     public GameObject imgPenilaian, imgHasil;
-    public TextMeshProUGUI txtHasil;
+    public TextMeshProUGUI txtHasil, txtPredikat;
 
     bool[] soalSelesai;
+
+    public string predikat;
 
     void Start()
     {
@@ -141,6 +143,34 @@ public class Script : MonoBehaviour
 
     void Update()
     {
+        if (nilai == 100)
+        {
+            predikat = "(A+) Sangat Mengerti";
+        }
+        else if (nilai >= 90)
+        {
+            predikat = "(A) Sangat Mengerti";
+        }
+        else if (nilai >= 70)
+        {
+            predikat = "(B) Mengerti";
+        }
+        else if (nilai >= 50)
+        {
+            predikat = "(C) Cukup Mengerti";
+        }
+        else if (nilai >= 30)
+        {
+            predikat = "(D) Kurang Mengerti";
+        }
+        else
+        {
+            predikat = "(E) Tidak Mengerti";
+        }
+
+        txtPredikat.text = predikat;
+
+
         if (panel.activeSelf)
         {
             durasiPenilaian -= Time.deltaTime;

@@ -33,6 +33,11 @@ public class take41 : MonoBehaviour
 
     }
 
+    void Update()
+    {
+        textSpeed = PlayerPrefs.GetFloat("textspeed", 0.03f);
+    }
+
     void StartDialogue1()
     {
         index = 0;

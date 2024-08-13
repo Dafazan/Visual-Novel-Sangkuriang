@@ -41,6 +41,11 @@ public class take3m : MonoBehaviour
 
     }
 
+    void Update()
+    {
+        textSpeed = PlayerPrefs.GetFloat("textspeed", 0.03f);
+    }
+
     void OnVideoEnded(VideoPlayer vp)
     {
         videoPlayerT2.Play();

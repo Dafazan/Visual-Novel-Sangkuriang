@@ -30,6 +30,11 @@ public class take2b : MonoBehaviour
         
     }
 
+    void Update()
+    {
+        textSpeed = PlayerPrefs.GetFloat("textspeed", 0.03f);
+    }
+
     void OnVideoEnded(VideoPlayer vp)
     {
         T2Dialogue.SetActive(true);
